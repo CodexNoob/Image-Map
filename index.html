@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Map</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="image_container">
+        <img src="img.jpg" usemap="#image-map" class="image" />
+
+        <map name="image-map">
+          <area
+            target="_blank"
+            alt="cellphone"
+            title="cellphone"
+            href="https://www.facebook.com/"
+            coords="42,212,82,279"
+            shape="rect"
+          />
+          <area
+            target="_blank"
+            alt="computer"
+            title="computer"
+            href="https://www.instagram.com/"
+            coords="263,174,262,275,118,275,117,178,97,110,285,112"
+            shape="poly"
+          />
+          <area
+            target="_blank"
+            alt="coffee"
+            title="coffee"
+            href="https://www.tiktok.com/"
+            coords="59,162,34"
+            shape="circle"
+          />
+        </map>
+      </div>
+    </div>
+  </body>
+</html>
